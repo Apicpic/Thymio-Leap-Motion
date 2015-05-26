@@ -4,7 +4,7 @@ from SimpleXMLRPCServer import SimpleXMLRPCServer
 class Serveur:
     def __init__(self, thymio, port=8000):
         self.port = port
-        self.server = SimpleXMLRPCServer(("192.168.1.31", port))
+        self.server = SimpleXMLRPCServer(("adresse_IP", port))
         self.thymio = thymio
         self.server.register_function(self.Avance,"Avance")
         self.server.register_function(self.Recule,"Recule")
