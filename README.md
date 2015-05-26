@@ -9,4 +9,5 @@ Vous aurez besoin :
 - Batterie externe
 - Thymio
 
-Le fichier Client et Sample2 sont deux fichier que vous devrez utiliser sur votre ordinateur pour communiquer avec le thymio et le fichier serveur.
+Lancez le fichier Client (et sample)sur votre ordinateur en ayant effectué les modifications d'adresse IP.
+Sur le Raspberry Pi vous retrouverez 3 fichier (Test, serveur & thymio). Utilisé le fichier Test pour lancer la connection avec l'ordinateur. Pensez a changer l'adresse IP dans le fichier serveur.
