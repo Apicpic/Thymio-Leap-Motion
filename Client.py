@@ -51,20 +51,6 @@ def Rien():
     print("Arret")
     proxy.Arret()
 
-#    global last_event
-#    t = time.time()
-#    if t < last_event:
-#        return
-#    last_event = t + 0.5
-#    print("Recule "  + str(t ))
-#    proxy.Recule(0.5-0.02)
-
-#while 1:
-#    t = time.time()
-#    print(proxy.CapteursHorizontaux())
-#    print(time.time()-t)
-#    time.sleep(1)
-
 
 Leap = Sample2.Leap_position(Position, Rien)
 
